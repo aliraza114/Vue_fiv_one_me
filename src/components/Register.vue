@@ -51,26 +51,25 @@
                 <!-- :disabled="!valid || loading" -->
               <v-btn
                 :loading="loading"
-                color="#6A95F9"
-                block
-                class="text-h1 white--text text-capitalize"
+                color="#82C131"
+                outlined
               >Get Started</v-btn>
               <div class="mt-2">
-                <p class="text--disabled">Or sign up with</p>
+                <p class="text--disabled border">Or sign up with</p>
               </div>
               <div>
-                <v-btn small color="#3B5999" min-width="22%" class="facebook text-capitalize">
+                <v-btn small color="#3B5999" min-width="22%" class="border facebook text-capitalize">
                   <img src="../assets/svg/facebook.svg" class="pr-2" /> Facebook
                 </v-btn>
-                <v-btn small color="#FFFFFF" min-width="22%" class="text-capitalize ml-2 mr-2">
+                <v-btn small color="#FFFFFF" min-width="22%" class="border text-capitalize ml-2 mr-2">
                   <img src="../assets/svg/seo-and-web.svg" class="pr-2" />Google
                 </v-btn>
-                <v-btn small color="#FFFFFF" min-width="22%" class="text-capitalize text-twitter">
+                <v-btn small color="#FFFFFF" min-width="22%" class="border text-capitalize text-twitter">
                   <img src="../assets/svg/twitter.svg" class="pr-2" />Twitter
                 </v-btn>
               </div>
               <div class="mt-2">
-                <p class="text--disabled caption">
+                <p class="text--disabled caption border">
                   By logging in or using this app, you are indicating that
                   <br />you have read and agree to the
                   <span
