@@ -154,8 +154,8 @@ export default {
   box-shadow: 0px 6px 10px #0000001a;
 }
 .imgClass {
-  width: 85px;
-  height: 85px;
+  width: 150px;
+  height: 150px;
 }
 .border {
   margin: 16px !important;
