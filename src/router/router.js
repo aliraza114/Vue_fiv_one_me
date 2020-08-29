@@ -8,7 +8,7 @@ import Register from '../components/Register'
 Vue.use(VueRouter)
 
 const routes = [{
-    path: '/register',
+    path: '/',
     name: 'Register',
     component: Register
 }]
